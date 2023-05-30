@@ -18,7 +18,7 @@ export function ContatosContextProvider(props) {
     }
 
     return (
-        <ContatosContext.Provider value={{contexto}}> 
+        <ContatosContext.Provider value={contexto}> 
             {props.children}
         </ContatosContext.Provider>
     )
